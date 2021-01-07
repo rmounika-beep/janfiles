@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="mysuite" parallel="classes" verbose="1" thread-count ="2">
+  <test name="myTests" >
+    <classes>
+       <class name="testNGscripts.class4_annotations" />
+          <class name="testNGscripts.testNGannotations"/>
+     
+          
+    </classes>
+  </test>
+  </suite>
